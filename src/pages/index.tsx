@@ -21,6 +21,7 @@ export default function Home() {
               name="to create the sense of intimacy when there’s none, 2023"
             />
             <AudioButton file="/Mouthwash.mp3" name="Mouthwash, 2023" />
+            <AudioButton file="/hearing_you.mp3" name="Hearing You Is Nothing Like Reading You, 2023" />
           </div>
         </div>
         <div className="flex flex-row gap-24 text-xl">
