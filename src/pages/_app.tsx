@@ -10,7 +10,7 @@ const crimson = Crimson_Text({ weight: "400", subsets: ["latin"] });
 const MyApp: AppType = ({ Component, pageProps }) => {
   return (
     <main className={crimson.className}>
-      <Component {...pageProps} />;
+      <Component {...pageProps} />
     </main>
   );
 };
