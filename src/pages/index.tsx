@@ -1,5 +1,6 @@
 import Head from "next/head";
 import { AudioButton } from "~/components/AudioButton";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -34,8 +35,15 @@ export default function Home() {
             name="Paralyzing Your Tongue, 2022"
           />
         </div>
-        <div>contact</div>
-        <div>about</div>
+        <Link
+          className="underline transition hover:opacity-80"
+          href="mailto:jore.gritenaite@gmail.com"
+        >
+          jore.gritenaite@gmail.com
+        </Link>
+        <Link className="transition hover:opacity-80" href="/about">
+          about
+        </Link>
       </main>
     </>
   );

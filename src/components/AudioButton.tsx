@@ -5,7 +5,7 @@ export function AudioButton({ file, name }: { file: string; name: string }) {
 
   return (
     <button
-      className={`text-start text-4xl italic hover:text-gray-700 ${playing ? "text-gray-500" : "text-black"}`}
+      className={`text-start text-4xl italic transition hover:opacity-80 ${playing ? "text-gray-500" : "text-black"}`}
       onClick={toggle}
     >
       {name}
