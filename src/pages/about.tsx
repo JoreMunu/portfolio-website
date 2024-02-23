@@ -23,9 +23,9 @@ export default function About() {
             believe in the invasive and intimate quality of the sound works
             utilizing a voice as an instrument. The subjects of my works include
             traditional and contemporary readings of cultural and social
-            structures such as marriage and family,as well as concepts and myths
-            around femininity, love, and power. Sound compositions result in
-            installations, head-phone pieces, or take the form of a listening
+            structures such as marriage and family, as well as concepts and
+            myths around femininity, love, and power. Sound compositions result
+            in installations, head-phone pieces, or take the form of a listening
             session.
           </p>
         </div>
