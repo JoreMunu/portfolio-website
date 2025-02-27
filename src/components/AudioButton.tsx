@@ -21,7 +21,7 @@ export function AudioButton({
 
   return (
     <button
-      className={`text-start text-4xl italic transition hover:opacity-80 ${play ? "text-gray-500" : "text-black"}`}
+      className={`flex flex-col gap-2 text-start text-4xl italic transition hover:opacity-80 ${play ? "text-gray-500" : "text-black"}`}
       onClick={onClick}
     >
       {name}
