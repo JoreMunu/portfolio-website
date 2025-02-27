@@ -10,6 +10,10 @@ const audioItems: {
   name: string;
 }[] = [
   {
+    file: "Listing.mp3",
+    name: "Listing, 2024",
+  },
+  {
     file: "Hearing_You_Is_Nothing_Like_Reading_You.mp3",
     name: "Hearing You Is Nothing Like Reading You, 2023",
   },
