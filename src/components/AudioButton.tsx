@@ -25,7 +25,7 @@ export function AudioButton({
       onClick={onClick}
     >
       {name}
-      <audio ref={audioRef} src={file} />
+      <audio ref={audioRef} src={file} controls />
     </button>
   );
 }
