@@ -63,9 +63,9 @@ export default function Home() {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="grid min-h-screen max-w-screen-lg grid-cols-1 place-content-between gap-8 bg-white px-16 py-10 md:grid-cols-2">
-        <div className="text-2xl">Jorė Gritėnaitė</div>
-        <div className="flex flex-col items-start gap-8">
+      <main className="grid min-h-screen w-full grid-cols-1 place-content-between gap-8 bg-white px-16 py-10 md:grid-cols-3">
+        <div className="w-min whitespace-nowrap text-2xl">Jorė Gritėnaitė</div>
+        <div className="col-span-2 flex w-full flex-1 flex-grow flex-col items-start gap-8">
           {audioItems.map((item) => (
             <AudioButton
               key={item.file}
@@ -87,12 +87,15 @@ export default function Home() {
           ))}
         </div>
         <Link
-          className="underline transition hover:opacity-80"
+          className="w-min whitespace-nowrap underline transition hover:opacity-80"
           href="mailto:jore.gritenaite@gmail.com"
         >
           jore.gritenaite@gmail.com
         </Link>
-        <Link className="transition hover:opacity-80" href="/about">
+        <Link
+          className="col-span-2 flex-grow transition hover:opacity-80"
+          href="/about"
+        >
           about
         </Link>
       </main>
