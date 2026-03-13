@@ -10,6 +10,18 @@ const audioItems: {
   name: string;
 }[] = [
   {
+    file: "Mouthful_Stereo.mp3",
+    name: "Mouthful, 2026",
+  },
+  {
+    file: "The Riddle of the Rider.mp3",
+    name: "The Riddle of the Rider, 2025",
+  },
+  {
+    file: "Rare_Cravings_Jorė_Gritėnaitė.mp3",
+    name: "Rare Cravings, 2025",
+  },
+  {
     file: "Listing.mp3",
     name: "Listing, 2024",
   },
@@ -63,9 +75,9 @@ export default function Home() {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="grid min-h-screen w-full grid-cols-1 place-content-between gap-8 bg-white px-16 py-10 md:grid-cols-3">
-        <div className="w-min whitespace-nowrap text-2xl">Jorė Gritėnaitė</div>
-        <div className="col-span-2 flex w-full flex-1 flex-grow flex-col items-start gap-8">
+      <main className="grid min-h-screen w-full grid-cols-1 place-content-between gap-16 bg-white px-16 py-10 md:grid-cols-3">
+        <div className="w-min whitespace-nowrap">Jorė Gritėnaitė</div>
+        <div className="col-span-2 flex w-full flex-1 flex-grow flex-col items-start gap-16">
           {audioItems.map((item) => (
             <AudioButton
               key={item.file}

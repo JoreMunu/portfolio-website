@@ -13,19 +13,20 @@ export default function About() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="grid min-h-screen max-w-screen-lg grid-cols-1 place-content-between gap-8 bg-white px-16 py-10 md:grid-cols-2">
-        <div className="text-2xl">Jorė Gritėnaitė</div>
+        <div>Jorė Gritėnaitė (*2001)</div>
         <div className="flex flex-col items-start gap-8">
-          <p>Lithuanian artist currently based in Zurich.</p>
-          <p className="italic">Artist Statement</p>
           <p>
-            My own voice is a core medium of my work. In my artistic practice I
-            compose sound pieces based on both original and found text. I
-            believe in the invasive and intimate quality of the sound works
-            utilizing a voice as an instrument. The subjects of my works include
-            traditional and contemporary readings of cultural and social
-            structures such as marriage and family, as well as concepts and
-            myths around femininity, love, and power. Sound compositions result
-            in installations, head-phone pieces, or take the form of a listening
+            Lithuanian artist based in Zürich. In 2024, she graduated with a BA
+            in Fine Arts from the Zürich University of the Arts. Jorė is
+            currently studying for a MA in Fine Arts at the same institution.
+            Alongside her major in Fine Arts, she is also pursuing a minor in
+            Sound: Auditory Cultures and Sonic Arts. Jorė’s works have been
+            exhibited in Lithuania, Switzerland, Austria and New York. In her
+            artistic practice, Jorė composes sound pieces based on both original
+            and found text using her own voice as a core medium. It is utilized
+            as an instrument when invasive and intimate qualities of sound are
+            investigated. Sound compositions result in installations in space,
+            headphone pieces, take the form of a performance and listening
             session.
           </p>
         </div>
